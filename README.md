@@ -19,14 +19,14 @@ Proyek ini bertujuan untuk menganalisis sentimen masyarakat terhadap pelayanan k
 
 1. **Pengumpulan Data**: Data dikumpulkan dari media sosial, forum online, dan platform ulasan lainnya yang berhubungan dengan pelayanan kesehatan di Indonesia.
 2. **Preprocessing Data**: Data yang dikumpulkan akan diproses untuk menghapus noise, tokenisasi, stemming, dan lemmatization.
-3. **Analisis Sentimen**: Menggunakan algoritma machine learning seperti Naive Bayes, SVM, atau model berbasis deep learning untuk mengklasifikasikan sentimen.
-4. **Visualisasi Data**: Hasil analisis akan divisualisasikan menggunakan alat seperti Matplotlib, Seaborn, atau Plotly.
+3. **Analisis Sentimen**: Menggunakan algoritma machine learning seperti Naive Bayes, SVM, Decision Tree, Random Forest, dan Boosting Clasifier untuk mengklasifikasikan sentimen.
+4. **Visualisasi Data**: Hasil analisis akan divisualisasikan menggunakan alat seperti Matplotlib dan Seaborn
 
 ## Teknologi yang Digunakan
 
 - **Python**: Bahasa pemrograman utama yang digunakan dalam proyek ini.
 - **Pandas**: Untuk manipulasi dan analisis data.
 - **Numpy**: Untuk operasi numerik.
-- **NLTK/Spacy**: Untuk Natural Language Processing.
 - **Scikit-learn**: Untuk algoritma machine learning.
-- **Matplotlib/Seaborn/Plotly**: Untuk visualisasi data.
+- **Matplotlib/Seaborn**: Untuk visualisasi data.
+- **Tweet Harvest**: Metode untuk crawling data pada command prompt.
